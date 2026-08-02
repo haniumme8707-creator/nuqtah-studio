@@ -144,19 +144,20 @@
     background:#fff;
     color:#0F172A;
 }
-
 .hero-image{
     flex:1;
     display:flex;
     justify-content:center;
+    align-items:center;
 }
 
 .hero-image img{
-    max-width:550px;
     width:100%;
+    max-width:600px;
+    height:auto;
+    object-fit:contain;
     animation:float 4s ease-in-out infinite;
 }
-
 @keyframes float{
     0%,100%{
         transform:translateY(0);
