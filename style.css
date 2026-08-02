@@ -41,11 +41,10 @@ button{
 /* ==========================
    NAVBAR
 ========================== */
-
 .container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
+    width:min(92%,1200px);
+    margin:0 auto;
+    padding:0 10px;
 }
 
 .header{
@@ -97,4 +96,32 @@ button{
 
 .nav-links a:hover{
     color:#CB997E;
+}
+/* ==========================
+   MOBILE NAVBAR
+========================== */
+
+@media (max-width:768px){
+
+    .header{
+        padding:14px 0;
+    }
+
+    .logo-title{
+        font-size:24px;
+    }
+
+    .logo-subtitle{
+        font-size:9px;
+        letter-spacing:2px;
+    }
+
+    .nav-links{
+        gap:18px;
+    }
+
+    .nav-links a{
+        font-size:13px;
+    }
+
 }
