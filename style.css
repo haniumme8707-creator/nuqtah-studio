@@ -151,7 +151,8 @@ button{
 ========================== */
 
 .hero{
-    padding:55px 0 70px;
+    padding:140px 0 70px;
+    min-height:auto;
 }
 
 .hero-container{
@@ -220,7 +221,7 @@ line-height:1.8;
 .hero-image{
     display:flex;
     justify-content:center;
-   margin-top:20px;
+   margin-top:30px;
 }
 
 .hero-arch{
