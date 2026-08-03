@@ -140,4 +140,128 @@ button{
     }
 
 }
+/* ==========================
+   HERO SECTION
+========================== */
 
+.hero{
+    padding:140px 0 80px;
+}
+
+.hero-container{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+.hero-content{
+    text-align:center;
+}
+
+.hero-tag{
+    font-size:13px;
+    letter-spacing:4px;
+    color:#6B705C;
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+
+.hero-title{
+    font-family:'Cormorant Garamond',serif;
+    font-size:60px;
+    font-weight:600;
+    line-height:1;
+    color:#2D2D2D;
+}
+
+.hero-title span{
+    display:block;
+    font-size:82px;
+    color:#6B705C;
+}
+
+.hero-text{
+    margin:25px auto;
+    max-width:500px;
+    font-size:16px;
+    line-height:1.8;
+    color:#555;
+}
+
+.hero-btn{
+    display:inline-block;
+    background:#6B705C;
+    color:#fff;
+    padding:15px 34px;
+    border-radius:50px;
+    font-size:15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    background:#CB997E;
+}
+
+.hero-image{
+    display:flex;
+    justify-content:center;
+}
+
+.hero-arch{
+    width:100%;
+    max-width:360px;
+    background:#EFE8DD;
+    border-radius:180px 180px 30px 30px;
+    padding:20px;
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+}
+
+.hero-arch img{
+    width:100%;
+    border-radius:20px;
+}
+
+/* ==========================
+   DESKTOP
+========================== */
+
+@media(min-width:992px){
+
+    .hero{
+        padding:180px 0 100px;
+    }
+
+    .hero-container{
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    .hero-content{
+        width:50%;
+        text-align:left;
+    }
+
+    .hero-text{
+        margin:25px 0;
+    }
+
+    .hero-image{
+        width:45%;
+        justify-content:flex-end;
+    }
+
+    .hero-title{
+        font-size:78px;
+    }
+
+    .hero-title span{
+        font-size:110px;
+    }
+
+    .hero-arch{
+        max-width:470px;
+    }
+
+   }
