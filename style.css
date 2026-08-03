@@ -69,19 +69,18 @@ button{
     display:flex;
     flex-direction:column;
 }
-
 .logo-title{
     font-family:'Cormorant Garamond',serif;
-    font-size:30px;
+    font-size:22px;
     font-weight:600;
-    letter-spacing:2px;
+    letter-spacing:3px;
 }
 
 .logo-subtitle{
-    font-size:10px;
-    letter-spacing:3px;
-    color:#6B705C;
-    margin-top:2px;
+    font-size:9px;
+    letter-spacing:4px;
+    color:#7A7A7A;
+    margin-top:3px;
 }
 
 .nav-links{
@@ -145,7 +144,7 @@ button{
 ========================== */
 
 .hero{
-    padding:140px 0 80px;
+    padding:120px 0 70px;
 }
 
 .hero-container{
@@ -156,6 +155,7 @@ button{
 
 .hero-content{
     text-align:center;
+   margin-top:-20px;
 }
 
 .hero-tag{
