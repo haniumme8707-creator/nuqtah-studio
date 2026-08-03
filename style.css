@@ -170,12 +170,12 @@ button{
 }
 
 .hero-title span{
-    font-family:'Dancing Script',cursive;
-    font-size:88px;
-    font-weight:700;
-    color:#73775F;
-    line-height:1;
-   }
+    font-family: 'Allura', cursive;
+    font-size: 110px;
+    color: #73775F;
+    line-height: 0.9;
+    font-weight: 400;
+}
 
 
 .hero-text{
