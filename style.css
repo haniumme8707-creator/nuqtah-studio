@@ -99,12 +99,11 @@ button{
 .nav-links a:hover{
     color:#CB997E;
 }
-/* Mobile */
+/* MOBILE MENU */
 
-@media(max-width:768px){
+@media (max-width:768px){
 
     .menu-toggle{
-    margin-right:8px;
         display:flex;
         flex-direction:column;
         gap:6px;
@@ -113,38 +112,40 @@ button{
     }
 
     .menu-toggle span{
-        width:28px;
-        height:2px;
+        width:34px;
+        height:3px;
         background:#2D2D2D;
         border-radius:20px;
-        transition:.3s;
+        transition:.35s;
     }
 
     .nav-links{
         position:fixed;
-        top:78px;
+        top:0;
         right:-100%;
         width:260px;
-        height:calc(100vh - 78px);
-
+        height:100vh;
         background:#F8F5F0;
-
         display:flex;
         flex-direction:column;
+        justify-content:center;
         align-items:center;
-        justify-content:flex-start;
-
-        gap:30px;
-        padding-top:50px;
-
-        transition:.4s ease;
-        box-shadow:-8px 0 30px rgba(0,0,0,.08);
+        gap:28px;
+        transition:.35s;
+        box-shadow:-10px 0 30px rgba(0,0,0,.08);
+        z-index:1000;
     }
 
     .nav-links.active{
         right:0;
     }
-       }
+
+    .nav-links a{
+        font-size:18px;
+        font-weight:600;
+    }
+
+}
 /* ==========================
    HERO SECTION
 ========================== */
