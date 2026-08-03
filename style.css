@@ -144,7 +144,7 @@ button{
 ========================== */
 
 .hero{
-    padding:95px 0 70px;
+    padding:55px 0 70px;
 }
 
 .hero-container{
@@ -199,15 +199,15 @@ line-height:1.8;
     border-radius:999px;
 
     font-size:16px;
+   margin-left:4px;
     font-weight:600;
 
-    transition:.35s;
+    transition:.3s;
    box-shadow:0 12px 30px rgba(115,119,95,.25);
-transition:.35s;
 }
 
 .hero-btn:hover{
-    transform:translateY(-4px);
+    transform:translateX(4px);
     background:#5F644E;
    }
 
