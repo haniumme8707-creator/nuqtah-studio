@@ -220,15 +220,15 @@ line-height:1.8;
 .hero-image{
     display:flex;
     justify-content:center;
-   margin-top:55px;
+   margin-top:20px;
 }
 
 .hero-arch{
     width:100%;
-    max-width:360px;
+    max-width:330px;
     background:#F1E9DD;
     border-radius:180px 180px 30px 30px;
-    padding:18px;
+    padding:14px;
     box-shadow:0 25px 60px rgba(0,0,0,.12);
    overflow:hidden;
 }
