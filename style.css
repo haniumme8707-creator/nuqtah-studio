@@ -173,7 +173,7 @@ button{
     color:#73775F;
     line-height:1;
    }
-}
+
 
 .hero-text{
     max-width:300px;
@@ -199,7 +199,6 @@ line-height:1.8;
     border-radius:999px;
 
     font-size:16px;
-   margin-left:4px;
     font-weight:600;
 
     transition:.3s;
@@ -214,20 +213,23 @@ line-height:1.8;
 .hero-image{
     display:flex;
     justify-content:center;
+   margin-top:55px;
 }
 
 .hero-arch{
     width:100%;
     max-width:360px;
-    background:#EFE8DD;
+    background:#F1E9DD;
     border-radius:180px 180px 30px 30px;
-    padding:20px;
-    box-shadow:0 20px 50px rgba(0,0,0,.08);
+    padding:18px;
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+   overflow:hidden;
 }
 
 .hero-arch img{
     width:100%;
-    border-radius:20px;
+    display:block;
+    border-radius:160px 160px 24px 24px;
 }
 
 /* ==========================
