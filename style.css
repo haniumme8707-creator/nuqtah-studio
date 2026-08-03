@@ -144,7 +144,7 @@ button{
 ========================== */
 
 .hero{
-    padding:120px 0 70px;
+    padding:95px 0 70px;
 }
 
 .hero-container{
@@ -166,26 +166,23 @@ button{
     margin-bottom:20px;
 }
 
-.hero-title{
-    font-family:'Cormorant Garamond',serif;
-    font-size:60px;
-    font-weight:600;
-    line-height:1;
-    color:#2D2D2D;
-}
-
 .hero-title span{
-    display:block;
-    font-size:82px;
-    color:#6B705C;
+    font-family:'Dancing Script',cursive;
+    font-size:88px;
+    font-weight:700;
+    color:#73775F;
+    line-height:1;
+   }
 }
 
 .hero-text{
-    max-width:330px;
+    max-width:300px;
     margin:28px auto;
     font-size:18px;
     line-height:1.9;
     color:#555;
+   text-align:center;
+line-height:1.8; 
 }
 
 .hero-btn{
@@ -205,10 +202,12 @@ button{
     font-weight:600;
 
     transition:.35s;
+   box-shadow:0 12px 30px rgba(115,119,95,.25);
+transition:.35s;
 }
 
 .hero-btn:hover{
-    transform:translateY(-3px);
+    transform:translateY(-4px);
     background:#5F644E;
    }
 
