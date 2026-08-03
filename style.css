@@ -163,7 +163,7 @@ button{
 
 .hero-content{
     text-align:center;
-   margin-top:-20px;
+   margin-top:-50px;
 }
 
 .hero-tag{
@@ -184,7 +184,7 @@ button{
 
 
 .hero-text{
-    max-width:300px;
+    max-width:340px;
     margin:28px auto;
     font-size:18px;
     line-height:1.9;
@@ -221,7 +221,7 @@ line-height:1.8;
 .hero-image{
     display:flex;
     justify-content:center;
-   margin-top:30px;
+   margin-top:5px;
 }
 
 .hero-arch{
