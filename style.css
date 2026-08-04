@@ -109,8 +109,9 @@ button{
         gap:6px;
         cursor:pointer;
         z-index:1001;
-        margin-right:30px;
     margin-top:5px;
+       position: relative;
+left: 20px;
     
     
 
