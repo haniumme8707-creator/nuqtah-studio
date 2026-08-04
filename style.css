@@ -546,3 +546,185 @@ line-height:1.8;
     }
 
    }
+   /*==========================
+      PORTFOLIO
+==========================*/
+
+.portfolio{
+    padding:90px 0;
+}
+
+.portfolio-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+    margin-top:50px;
+}
+
+/* Card */
+
+.project-card{
+    background:#fff;
+    border-radius:28px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.4s ease;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 55px rgba(0,0,0,.12);
+}
+
+/* Image */
+
+.project-image{
+    overflow:hidden;
+}
+
+.project-image img{
+    width:100%;
+    display:block;
+    transition:.5s ease;
+}
+
+.project-card:hover .project-image img{
+    transform:scale(1.08);
+}
+
+/* Content */
+
+.project-content{
+    padding:28px;
+}
+
+.project-number{
+    display:inline-block;
+    color:#73775F;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.project-content h3{
+    font-size:26px;
+    color:#2D2D2D;
+    margin-bottom:12px;
+}
+
+.project-content p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:28px;
+}
+
+/* Button */
+
+.project-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    color:#73775F;
+    font-weight:600;
+    transition:.3s;
+}
+
+.project-btn:hover{
+    gap:14px;
+}
+
+/*==========================
+    COMING PROJECT CARD
+==========================*/
+
+.coming-card{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+    background:linear-gradient(180deg,#ffffff,#F8F5F0);
+
+    border:2px dashed #D8D2C7;
+}
+
+.coming-content{
+    padding:50px 35px;
+}
+
+.coming-content i{
+    font-size:62px;
+    color:#73775F;
+    margin-bottom:22px;
+    display:block;
+}
+
+.coming-content .project-number{
+    display:block;
+    margin-bottom:18px;
+}
+
+.coming-content h3{
+    font-size:30px;
+    color:#2D2D2D;
+    margin-bottom:18px;
+}
+
+.coming-content p{
+    color:#666;
+    line-height:1.9;
+    max-width:300px;
+    margin:0 auto 30px;
+}
+
+.coming-content .project-btn{
+
+    background:#73775F;
+    color:#fff;
+
+    padding:15px 34px;
+
+    border-radius:999px;
+
+    display:inline-flex;
+
+    transition:.35s;
+}
+
+.coming-content .project-btn:hover{
+
+    background:#5F644E;
+
+    transform:translateY(-3px);
+
+}
+
+/*==========================
+      DESKTOP
+==========================*/
+
+@media(min-width:992px){
+
+.portfolio-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.project-content{
+
+    padding:30px;
+
+}
+
+.project-content h3{
+
+    font-size:24px;
+
+}
+
+}
