@@ -1062,3 +1062,252 @@ line-height:1.8;
 }
 
    }
+/*==========================
+          FOOTER
+==========================*/
+
+.footer{
+
+    background:#EFEAE2;
+
+    border-top:1px solid rgba(0,0,0,.08);
+
+    padding:70px 0 35px;
+
+    position:relative;
+
+}
+
+.footer-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+    gap:35px;
+
+}
+
+/* Brand */
+
+.footer-brand h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:34px;
+
+    letter-spacing:4px;
+
+    color:#2D2D2D;
+
+    margin-bottom:10px;
+
+}
+
+.footer-brand p{
+
+    color:#73775F;
+
+    letter-spacing:3px;
+
+    font-size:14px;
+
+}
+
+/* Small Divider */
+
+.footer-divider{
+
+    margin:18px auto 0;
+
+    color:#73775F;
+
+    font-size:18px;
+
+    letter-spacing:6px;
+
+}
+
+/* Navigation */
+
+.footer-links{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:24px;
+
+}
+
+.footer-links a{
+
+    color:#555;
+
+    font-size:15px;
+
+    transition:.3s;
+
+    position:relative;
+
+}
+
+/* Hover Line */
+
+.footer-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-6px;
+
+    width:0;
+
+    height:2px;
+
+    background:#73775F;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:#73775F;
+
+}
+
+.footer-links a:hover::after{
+
+    width:100%;
+
+}
+
+/* Bottom */
+
+.footer-bottom{
+
+    text-align:center;
+
+    margin-top:45px;
+
+}
+
+.footer-bottom p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:14px;
+
+}
+
+.footer-credit{
+
+    margin-top:8px;
+
+    font-weight:600;
+
+    color:#2D2D2D;
+
+}
+
+.footer-quote{
+
+    margin-top:16px;
+
+    font-style:italic;
+
+    color:#73775F;
+
+}
+
+/* Back To Top */
+
+.back-to-top{
+
+    position:absolute;
+
+    right:30px;
+
+    top:35px;
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#73775F;
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:24px;
+
+    box-shadow:0 15px 35px rgba(115,119,95,.25);
+
+    transition:.35s;
+
+}
+
+.back-to-top:hover{
+
+    transform:translateY(-6px);
+
+    background:#5F644E;
+
+}
+
+/*==========================
+        DESKTOP
+==========================*/
+
+@media(min-width:992px){
+
+.footer-content{
+
+    flex-direction:row;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    text-align:left;
+
+}
+
+.footer-brand{
+
+    max-width:320px;
+
+}
+
+.footer-links{
+
+    justify-content:flex-end;
+
+}
+
+.footer-bottom{
+
+    margin-top:60px;
+
+}
+
+}
