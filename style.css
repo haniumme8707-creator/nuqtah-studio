@@ -42,9 +42,10 @@ button{
    HEADER
 ========================== */
    .container{
-    width:min(92%,1200px);
+     width:100%;
+    max-width:1200px;
     margin:0 auto;
-    padding:0 16px;
+    padding:0 20px;
    }
 
 
@@ -111,7 +112,6 @@ button{
         z-index:1001;
     margin-top:5px;
        position: relative;
-left: 20px;
     
     
 
@@ -578,14 +578,16 @@ line-height:1.8;
 }
 
 /* Image */
-
 .project-image{
+    height:240px;
     overflow:hidden;
 }
 
 .project-image img{
     width:100%;
-    display:block;
+    height:100%;
+    object-fit:cover;
+    object-position:top;
     transition:.5s ease;
 }
 
@@ -1075,6 +1077,7 @@ line-height:1.8;
     padding:70px 0 35px;
 
     position:relative;
+   overflow:hidden;
 
 }
 
@@ -1309,5 +1312,13 @@ line-height:1.8;
     margin-top:60px;
 
 }
+
+}
+@media(max-width:768px){
+
+    .back-to-top{
+        right:16px;
+        top:20px;
+    }
 
 }
