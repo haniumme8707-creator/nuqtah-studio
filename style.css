@@ -728,3 +728,113 @@ line-height:1.8;
 }
 
 }
+   /*==========================
+   BUILT AROUND YOUR VISION
+==========================*/
+
+.vision{
+    padding:90px 0;
+}
+
+.vision-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+    margin-top:50px;
+}
+
+.vision-card{
+
+    background:#fff;
+
+    padding:40px 28px;
+
+    border-radius:28px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.06);
+
+    transition:.35s ease;
+
+    border:1px solid #EFEAE2;
+
+}
+
+.vision-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 55px rgba(0,0,0,.10);
+
+}
+
+.vision-card i{
+
+    font-size:46px;
+
+    color:#73775F;
+
+    margin-bottom:24px;
+
+    display:block;
+
+}
+
+.vision-card h3{
+
+    font-size:22px;
+
+    color:#2D2D2D;
+
+    margin-bottom:14px;
+
+}
+
+.vision-card p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+}
+
+/*==========================
+      DESKTOP
+==========================*/
+
+@media(min-width:992px){
+
+.vision-grid{
+
+    gap:30px;
+
+}
+
+.vision-card{
+
+    padding:50px 40px;
+
+}
+
+.vision-card i{
+
+    font-size:54px;
+
+}
+
+.vision-card h3{
+
+    font-size:26px;
+
+}
+
+.vision-card p{
+
+    font-size:16px;
+
+}
+
+   }
