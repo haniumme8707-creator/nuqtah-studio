@@ -46,12 +46,12 @@ button{
     margin:0 auto;
     padding:0 16px;
    }
-}
+
 
 .header{
     position:fixed;
     top:0;
-  *  left:0;
+    left:0;
     width:100%;
     background:#F8F5F0;
     border-bottom:1px solid rgba(0,0,0,.06);
@@ -151,6 +151,7 @@ left: 20px;
         font-size:18px;
         font-weight:600;
     }
+}
 
 
 /* ==========================
@@ -290,7 +291,7 @@ line-height:1.8;
     }
 
    }
-   .close-btn{
+   .close-menu{
     position:absolute;
     top:30px;
     left:30px;
